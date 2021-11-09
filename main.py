@@ -34,12 +34,12 @@ if SideAsker == '2':
         if WSide == 'BA':
             BA = float(input('BA = '))
             AC = float(BC) * float(BC) - float(BA) * float(BA)
-            FirstSolve = float(AC) ** (0.5)
+            FirstSolve = float(AC) ** (1)
             print('AC =', FirstSolve, 'cm')
         else:
             CA = float(input('CA = '))
             BA = float(BC) * float(BC) - float(CA) * float(CA)
-            SecondSolve = float(BA) ** (0.5)
+            SecondSolve = float(BA) ** (1)
             print('BA =', SecondSolve, 'cm')
     else:
         print(Triangle)
